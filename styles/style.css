@@ -213,3 +213,49 @@ section{
     margin: 30px;
     border-radius: 18px;
 }
+.Meet-Our-Team-hiding{
+    width: 670px;
+    text-align: center;
+    margin: 1.5rem auto;
+}
+.Meet-Our-Team-hiding h1{
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 1rem;
+}
+.Meet-Our-Team-hiding p{
+    color: rgba(255, 255, 255, 0.5);
+}
+.img-parent{
+    width: 1060px;
+    height: 604px;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-chaild-1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    
+}
+.img-chaild-1 img{
+    width: 320px;
+    height: 270px;
+    border-radius: 18px;
+    
+    
+}
+.img-chaild-1 h3{
+    position: absolute;
+    margin-top: -70px;
+    margin-left: 20px;
+}
+.img-chaild-1 p{
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 20px;
+    color: rgba(255, 255, 255, 0.5);
+}
