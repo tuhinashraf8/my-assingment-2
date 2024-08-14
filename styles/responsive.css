@@ -137,4 +137,14 @@
     .content-get-started a{
         margin-top: 1rem;
     }
+    .row{
+        flex-direction: column;
+        height: auto;
+    }
+    .square-collage{
+        grid-template-columns: 1fr;
+    }
+    .photo-gallery h1{
+        font-size: 100px;
+    }
 }
