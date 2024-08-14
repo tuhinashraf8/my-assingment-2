@@ -29,14 +29,15 @@
         width: 100%;
         
     }
+    
     .bmi-hidding{
         margin-left: 1rem;
     }
     .tag-1{
         height: 4.5rem;
         width: 7rem;
-        margin-top: -25rem;
-        margin-left: 9rem;
+        margin-top: -30rem;
+        margin-left: 12rem;
     }
     .tag-2{
         height: 5rem;
@@ -81,9 +82,11 @@
     }
     .run-an-extra-content h1{
         font-size: 2rem;
-        /* width: 100%; */
     }   
     .run-an-extra-content button{
+        margin-top: 2rem;
+    }
+    .bmi-calculator-cart-rs{
         margin-top: 2rem;
     }
     .bmi-hidding h1{
@@ -96,7 +99,6 @@
     }
     .bmi-calculator-cart-rs input, select{
         width: 100%;
-
     }
     .bmi-calculator-cart{
         flex-direction: column;
@@ -128,6 +130,9 @@
     }
     .footer-content{
         width: 100%;
+    }
+    .bmi-calculator-cart-rs input{
+        padding: 0%;
     }
     .content-get-started{
         flex-direction: column;
