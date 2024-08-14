@@ -24,6 +24,9 @@ section{
     margin: 0 auto;
     margin-bottom: 100px;
 }
+p{
+    color: rgba(255, 255, 255, 0.5);
+}
 .nav-bar{
     display: flex;
     justify-content: space-between;
@@ -67,13 +70,15 @@ section{
     justify-content: space-between;
     
 }
+.header-content {
+    width: 50%;
+}
 .header-content h1{
     font-size: 4.8rem;
     font-weight: 900;
     margin-bottom: 2rem;
 }
 .header-content p{
-   color: rgba(255, 255, 255, 0.5);
    margin-bottom: 2rem;
 }
 .btn-1{
@@ -166,7 +171,6 @@ section{
     margin-bottom: 2rem;
 }
 .change-your-habits p{
-    color: rgba(255, 255, 255, 0.5);
     text-align: center; 
 }
 .img-contenar{
@@ -193,9 +197,7 @@ section{
 .run-an-extra-content h1{
     font-weight: 900;
     font-size: 3rem;
-}
-.run-an-extra-content p{
-    color: rgba(255, 255, 255, 0.5);
+    margin: 1rem;
 }
 .run-an-extra-content button{
     color: white;
@@ -225,7 +227,6 @@ section{
     margin-bottom: 1rem;
 }
 .bmi-hidding p{
-    color: rgba(255, 255, 255, 0.5);
     margin-bottom: 5.5rem;
 }
 .bmi-calculator-cart{
@@ -260,7 +261,6 @@ td{
 }
 
 .bmi-calculator-cart-rs p{
-    color: rgba(255, 255, 255, 0.5);
     margin-top: 1rem;
     margin-bottom: 2rem;
 }
@@ -293,9 +293,6 @@ td{
     font-size: 3rem;
     font-weight: 900;
     margin-bottom: 1rem;
-}
-.Meet-Our-Team-hiding p{
-    color: rgba(255, 255, 255, 0.5);
 }
 .img-parent{
     max-width: 1060px;
@@ -397,9 +394,6 @@ td{
 }
 .footer-content{
     width: 50%;
-}
-.footer-content p{
-    color: rgba(255, 255, 255, 0.5);
 }
 .content-get-started{
     width: 50%;

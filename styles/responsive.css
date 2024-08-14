@@ -13,6 +13,19 @@
         flex-direction: column;
         align-items: start;
     }
+    .header-content{
+       width: 100%; 
+    }
+    .bmi-calculator-cart-ls{
+        width: 100%;
+    }
+    .bmi-calculator-cart-rs{
+        width: 100%;
+        
+    }
+    .bmi-hidding{
+        margin-left: 1rem;
+    }
     .tag-1{
         height: 5rem;
         width: 10.5rem;
@@ -34,6 +47,9 @@
     }
     .run-an-extra{
         flex-direction: column;
+    }
+    .run-an-extra-content button{
+        margin-top: 2rem;
     }
     .bmi-calculator-cart{
         flex-direction: column;
